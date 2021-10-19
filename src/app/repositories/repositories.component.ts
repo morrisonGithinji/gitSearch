@@ -11,13 +11,13 @@ import {Repository} from '../repository';
 })
 export class RepositoriesComponent implements OnInit {
 
-    repository: Repository;
+   repository: Repository;
     public searchRepo: string;
     public resultCount = 12;
 
     searchRepos() {
         this.searchRepo = '';
-        this.resultCount = 10;
+        this.resultCount = 5;
         this.getDataFunction();
 
     }
