@@ -15,4 +15,7 @@
     overflow: hidden;
     background-color: green;
 }
- 
+.header{
+    padding: 25px;
+    text-align: center;
+}
