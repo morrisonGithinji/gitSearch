@@ -25,7 +25,7 @@ export class RepositoriesComponent implements OnInit {
     constructor(public gitRepoRequest: SearchRequestService ) { }
 
   ngOnInit() {
-        this.resultCount = 10;
+        this.resultCount = 5;
       this.gitRepoRequest.gitRepos(this.searchRepo);
   }
 
