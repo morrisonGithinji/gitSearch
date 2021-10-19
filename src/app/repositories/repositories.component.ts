@@ -17,7 +17,7 @@ export class RepositoriesComponent implements OnInit {
 
     searchRepos() {
         this.searchRepo = '';
-        this.resultCount = 5;
+        this.resultCount = 10;
         this.getDataFunction();
 
     }
