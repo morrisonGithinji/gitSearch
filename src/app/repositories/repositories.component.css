@@ -4,11 +4,11 @@
 }
 p {
     text-indent: 2rem;
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 .btn{
     margin-top: 30px;
-    background-color: #056b5b;
+    background-color:green;
 }
 
 .seeMorebtn{
